@@ -25,7 +25,7 @@ Import/Index a JSON file into Elasticsearch
 http://stackoverflow.com/questions/15936616/import-index-a-json-file-into-elasticsearch
 
 
-## Preparation
+### Preparation
 
 * An Openshift account
 
