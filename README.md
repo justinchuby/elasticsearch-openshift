@@ -46,13 +46,13 @@ Clone The Repo to Your Local Machine
 
 You can either install Elasticsearch remotely (https://blog.openshift.com/searching-with-elasticsearch-on-openshift/), or installing it locally in a git repo and then push it to the Openshift server. Here, we are going to use the latter way.
 
-Going back to your App Console, click on the application you’ve just created. Look for the “Source Code” section on the right and copy the URL starting with “ssh://”. This is the link to your git repo.
+Going back to your App Console, click on the application you’ve just created. Look for the “Source Code” section on the right and copy the URL starting with “ssh://”. This is the link to your Openshift git repo.
 
-Clone the repo to your local machine. If you are unfamiliar with git, here’s a quick-start guide you may refer to: http://rogerdudler.github.io/git-guide/
+__Clone the Openshift repo to your local machine.__ If you are unfamiliar with git, here’s a quick-start guide you may refer to: http://rogerdudler.github.io/git-guide/
 
 Now that you have cloned the repo, we can start installing elasticsearch.
 
-Install Elasticsearch Locally
+#### Install Elasticsearch Locally
 
 First, **download Elasticsearch** from its website. We need the .tar file. The link for version 2.3.3 is https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/2.3.3/elasticsearch-2.3.3.tar.gz
 
