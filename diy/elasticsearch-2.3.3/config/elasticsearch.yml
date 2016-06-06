@@ -98,13 +98,11 @@ cluster.name: elasticsearch-${OPENSHIFT_APP_UUID}
 node.name: ${OPENSHIFT_GEAR_UUID}
 
 path.data: ${OPENSHIFT_DATA_DIR}elasticsearch/data
-path.work: ${OPENSHIFT_TMP_DIR}elasticsearch
 path.logs: ${OPENSHIFT_DIY_LOG_DIR}elasticsearch_logs
 network.host: ${OPENSHIFT_DIY_IP}
 http.port: ${OPENSHIFT_DIY_PORT}
 transport.tcp.port: 3306
 
-discovery.zen.ping.multicast.enabled: false
 
 shield.authc:
   anonymous:
